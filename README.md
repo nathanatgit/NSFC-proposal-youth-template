@@ -1,6 +1,6 @@
-# NSFC application template latex (unofficial)
+# NSFC Youth Cat. C latex (unofficial)
 
-### 青年基金申请书正文LaTeX 模板 （自制非官方）
+### 青年科学基金项目（C类）LaTeX 模板 （自制非官方）
 
 
 个人修改自用
@@ -12,7 +12,8 @@ Windows + texlive2023 + VSCode + Latexworkshop
 
 **编译链：**
 
-xelatex + biber + xelatex*2
+已添加至.vscode文件夹。
+默认使用 latexmk (XeLaTeX + biber auto)
 
 
 **参考源：**
