@@ -1,4 +1,4 @@
-# NSFC application template latex (unofficial)
+# NSFC Youth Cat. C latex (unofficial)
 
 ### 青年科学基金项目（C类）LaTeX 模板 （自制非官方）
 
