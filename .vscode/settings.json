@@ -1,6 +1,12 @@
 {
     "latex-workshop.latex.recipes": [
         {
+            "name": "latexmk (XeLaTeX + biber auto)",
+            "tools": [
+                "latexmk-xe"
+            ]
+        },
+        {
             "name": "xelatex ➞ biber ➞ xelatex * 2",
             "tools": [
                 "xelatexmk",
@@ -79,8 +85,6 @@
     ],
     "latex-workshop.latex.recipe.default": "first",
     "latex-workshop.latex.tools": [
-
-
         {
             "name": "biber",
             "command": "biber",
@@ -223,6 +227,18 @@
                 "%DOC%.tex"
             ],
             "env": {}
+        },
+        {
+            "name": "latexmk-xe",
+            "command": "latexmk",
+            "args": [
+                "-xelatex",
+                "-synctex=1",
+                "-interaction=nonstopmode",
+                "-file-line-error",
+                "-outdir=%OUTDIR%",
+                "%DOC%"
+            ]
         }
     ],
     "latex-workshop.synctex.afterBuild.enabled": true,
